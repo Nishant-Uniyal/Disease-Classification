@@ -19,7 +19,7 @@ class EvaluationPipeline:
         evaluation.save_score()
         evaluation.log_into_mlflow()
 
-
+                                                                    
 
 
 if __name__ == '__main__':
@@ -32,4 +32,4 @@ if __name__ == '__main__':
     except Exception as e:
         logger.exception(e)
         raise e
-            
+        
